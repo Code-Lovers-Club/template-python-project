@@ -6,10 +6,10 @@ help:
 
 # General
 .PHONY: init
-init: ## Setup the project
+init: ## Initialize your python project
 	@git init -b main \
 	&& pip install -U pip poetry poetry-plugin-up pre-commit\
 	&& poetry install --no-root \
 	&& pre-commit install \
-	&& curl https://raw.githubusercontent.com/PixelFlowMX/branch-color/master/install.sh --output /tmp/install-branch-color.sh
+	&& curl https://raw.githubusercontent.com/Code-Lovers-Club/branch-color/main/install.sh --output /tmp/install-branch-color.sh
 	/bin/bash /tmp/install-branch-color.sh
