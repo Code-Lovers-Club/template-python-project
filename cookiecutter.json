@@ -1,0 +1,8 @@
+{
+    "full_name": "John Perez",
+    "email": "admin@example.com",
+    "project_name": "Django Project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "This boilerplate contains all the boilerplate you need to create a Django project",
+    "version": "0.1.0"
+  }
